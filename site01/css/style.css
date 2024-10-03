@@ -1,0 +1,182 @@
+
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+/* Faça seu código aqui 👇 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0 60px;
+}
+
+.comeco{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img1{
+    margin: 0 300px;
+}
+
+.cabeca a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #4f4f4f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 0;
+    background-color: #f4f7fc;
+}
+
+/* Seção principal - Fones */
+.meio1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.meio1 img {
+    width: 300px;
+}
+
+.meio1 h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+
+.preco{ color: #004cff;
+}
+
+.meio1 p {
+    font-size: 16px;
+    color: #4f4f4f;
+}
+
+button {
+    background-color: #004cff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+   
+}
+
+/* Seção de características do produto */
+.meio2 {
+    background-color: #ffffff;
+
+}
+
+.nome{
+    margin: 0 500px;
+    font-size: 32px;
+
+}
+
+.meiofone {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.meiofone img {
+    width: 120px;
+    height: 120px;
+}
+
+.meiofone p {
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+/* Seção de marketing do produto */
+.meio2 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #004cff;
+    color: white;
+    border-radius: 8px;
+}
+
+.meio2 div img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.meio2 div h1 {
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+.meio2 div p {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0a0a0a;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #f6f5f7;
+}
+
+footer img {
+    margin: 0 20px;
+}
+
+footer a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f3eeee;
+    font-size: 16px;
+    
+}
+
+.branco{
+    color: #f3eeee;
+}
+
+.meio3{
+    display: flex;
+    gap: 30px;   
+    align-items: center;
+    background-color: #0033cc;
+    justify-content: center;
+}
+
+.img3{
+    width: 200px;
+}
